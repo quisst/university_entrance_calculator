@@ -1,0 +1,41 @@
+body {
+  font-family: "굴림";
+  font-size: 30px;
+}
+.top_container {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+.major_select {
+  width: 50%;
+  display: flex;
+}
+.liberal_arts,
+.natural_sciences {
+  border-color: black;
+  border: 2px solid;
+  margin: 20px;
+  padding: 3px 10px 3px 10px;
+}
+.liberal_arts:hover,
+.natural_sciences:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+.main_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.line {
+  display: flex;
+  justify-content: center;
+}
+.school_container {
+  display: flex;
+  border-color: black;
+  border: 1px solid;
+  margin: 30px;
+  cursor: pointer;
+}
