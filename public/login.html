@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login page</title>
+    <link rel="stylesheet" href="/user.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title_container">
+        <div class="title">로그인</div>
+      </div>
+      <div class="input_container">
+        <div class="input_list">
+          <form class="form" action="/login" method="POST">
+            <input type="text" placeholder="아이디" name="id" />
+            <input type="password" placeholder="비밀번호" name="password" />
+            <input type="submit" value="로그인" class="submit" />
+          </form>
+        </div>
+      </div>
+      <div class="back_container">
+        <button class="back" onClick="location.href='/main.html'">뒤로</button>
+      </div>
+    </div>
+  </body>
+</html>
